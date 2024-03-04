@@ -1,0 +1,57 @@
+body{
+    
+    background-image: url(a.png);
+    background-attachment: fixed;
+    background-position: center;
+}
+.h{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+    
+}
+.bouton {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.bouton a {
+    display: block;
+}
+
+.bouton img {
+    width: 450px; 
+    height: 600px; 
+}
+/* Styling for elements with class .h */
+.h {
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+/* Styling for elements with class .bouton */
+.bouton {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Styling for anchor tags (<a>) within elements with class .bouton */
+.bouton a {
+    display: block;
+}
+
+/* Styling for images within elements with class .bouton */
+.bouton img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .bouton img {
+        width: 100%; /* Make images fill their container */
+    }
+}
